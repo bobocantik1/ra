@@ -15,7 +15,7 @@ const spam = require("./spam.js");
 
 const level = require("./level.js");
 const rpg = require("./rpg.js");
-const quotes = require("./quotes.js");
+
 
 bot.on('ready', async => {
 console.log("Bot Melucur!" + "\n" + bot.user.tag + "\n" + "Server Count: "  + bot.guilds.size + "\n" + "Cached users: " + bot.users.size + "\n" + "Bot Berhasil Tapi tetap Periksa Aplikasi Termux jika bot mati dan hidupkan ulang!")
@@ -25,14 +25,14 @@ bot.user.setActivity("Bot Loading....", {type: "LISTENING"});
 let activNum = 0;
 setInterval(function() {
 	if (activNum === 0) {
-		bot.user.setActivity("/help | Informasi Bot", {type: "LISTENING"});
+		bot.user.setActivity("/help | Informasi Bot", {type: "PLAYING"});
 		activNum = 1;
 	 }else if(activNum === 1) {
 		bot.user.setActivity("Z DEV",{type: "STREAMING"});
 		activNum = 0;
 		
 		}
-}, 5000);
+}, 10000);
 
 
 
@@ -161,4 +161,4 @@ let embed = new Discord.RichEmbed()
 
 ///ini bot login dan akan di arahkan ke script your_setting.json jangan di ubah kalo belum mengerti!
 
-bot.login(settings.token).catch(err=> console.log("Incorrect Token was provided"))
+bot.login(process.env.TOKEN).catch(err=> console.log("Incorrect Token was provided"))
