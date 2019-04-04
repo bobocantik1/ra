@@ -125,7 +125,12 @@ bot.on("message", message => {
 		message.channel.send(attachment);
 	}
 });
-
+bot.on("message", message => {
+	if (message.content === "Hahaha" || message.content === "Haha" || message.content === "Wkwk") {
+		const attachment = new Attachment ("https://i.ibb.co/6JgsRCV/Gambar-Gif-Download-Animasi-Bergerak-Gratis-Unduh.gif);
+		message.channel.send(attachment);
+		
+	});
 bot.on("message", message => {
 	if (message.content === "/ra") {
 		const attachment = new Attachment ("https://i.ibb.co/kJ5K4WT/C-R-r.jpg");
