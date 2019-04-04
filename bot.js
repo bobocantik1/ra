@@ -161,4 +161,4 @@ let embed = new Discord.RichEmbed()
 
 ///ini bot login dan akan di arahkan ke script your_setting.json jangan di ubah kalo belum mengerti!
 
-bot.login(settings.token).catch(err=> console.log("Incorrect Token was provided"))
+bot.login(process.env.TOKEN).catch(err=> console.log("Incorrect Token was provided"))
