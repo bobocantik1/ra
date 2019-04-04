@@ -41,4 +41,4 @@ client.on('message', msg => {
   client.emit('checkMessage', msg);
 
 }) ///GANTI TOKEN NYA SAMA BOT TOKEN KAMU 
-client.login(process.env.TOKEN);
+client.login(settings.token);
