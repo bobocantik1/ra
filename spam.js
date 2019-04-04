@@ -342,7 +342,7 @@ msg.channel.send("Error, user not found.")
 
 
 
-bot.login(process.env.TOKEN);
+bot.login(settings.token);
 
 
 //UNHANDLED REJECTION
