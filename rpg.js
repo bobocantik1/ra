@@ -561,7 +561,7 @@ msg.channel.sendCode("xl", (evaled));
 
 //Bot login.
 
-bot.login(process.env.TOKEN).catch((err) => console.log(`[Client] Failed to connect: ${err.message}`))
+bot.login(settings.token).catch((err) => console.log(`[Client] Failed to connect: ${err.message}`))
 
 //Saves endless looking around if there is an Uncaught Promise Error.
 
