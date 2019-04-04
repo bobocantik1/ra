@@ -24,7 +24,7 @@ client.on('ready', () => {
 
 		deleteMessageAfterBanForPastDay: 7,
 
-		exemptRoles: ["✪✪👑 Member Devisi Free Firee 👑✪✪", "✪✪✪✪  ️Boys Tampan ✪✪✪✪", "✪✪✪✪✪✪ Princess ✪✪✪✪✪✪", ""],
+		exemptRoles: ["✪✪👑 Member Devisi Free Firee 👑✪✪", "✪✪✪✪  ️Boys Tampan ✪✪✪✪", "✪✪✪✪✪✪ Princess ✪✪✪✪✪✪"],
 
 		exemptUser: [],
 
