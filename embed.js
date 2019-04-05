@@ -6,7 +6,7 @@ const Client = new Discord.Client();
 const OwnerID = "455029939297714177";
 
 
-const prefix = settings.prefix;
+const prefix = "_";
 const settings = require("./your_settings.json");
 
 
