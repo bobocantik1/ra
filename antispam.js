@@ -16,15 +16,15 @@ client.on('ready', () => {
 
 		interval: 1000,
 
-		warningMessage: "PERINGATAN SPAM ! MOHON UNTUK TIDAK MELAKUKAN SPAM ! SANKSI BANNED PERMANENT @here",
+		warningMessage: "⚠️ PERINGATAN SPAM ⚠️ MOHON UNTUK TIDAK MELAKUKAN SPAM ! SANKSI BANNED PERMANENT⛔⛔ @here",
 
-		maxDuplicatesWarning: 5,
+		maxDuplicatesWarning: 3,
 
-		maxDuplicatesBan: 6,
+		maxDuplicatesBan: 5,
 
 		deleteMessageAfterBanForPastDay: 7,
 
-		exemptRoles: ["✪✪👑 Member Devisi Free Firee 👑✪✪", "✪✪✪✪  ️Boys Tampan ✪✪✪✪", "✪✪✪✪✪✪ Princess ✪✪✪✪✪✪"],
+		exemptRoles: ["✪✪✪✪✪🔱️ Co Leader 🔱✪✪✪✪✪", "✪✪👑 Big Family Capsul_FLY 👑✪✪"],
 
 		exemptUser: [],
 
