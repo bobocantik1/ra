@@ -6,7 +6,7 @@ const Client = new Discord.Client();
 const OwnerID = "455029939297714177";
 
 
-const prefix = "/";
+const prefix = settings.prefix;
 const settings = require("./your_settings.json");
 
 
@@ -57,17 +57,17 @@ Client.on("message", async (message) => {
 
 		.setTitle("Command List:")
 
-		.addField("/help", "Dapatkan Bantuan CMD Bot")
+		.addField("${prefix}help", "Dapatkan Bantuan CMD Bot")
 
-		.addField("/rainbow", "Untuk memulai Rainbow Role \nContoh: /rainbow @role")
+		.addField("${prefix}rainbow", "Untuk memulai Rainbow Role \nContoh: /rainbow @role")
 
-		.addField("/hapus", "Untuk menghapus pesan \nContoh: /clear 100")
+		.addField("${prefix}hapus", "Untuk menghapus pesan \nContoh: /clear 100")
 		
 		.addField("×••• Mode Admin •••×", "Dalam Mode Admin Diperlukan Role VIP untuk bekerja!")
 
-		.addField("/kick", "Kick member\nContoh: /kick @user")
+		.addField("${prefix}kick", "Kick member\nContoh: /kick @user")
 
-		.addField("/ban", "ban member\nContoh: /ban @user");
+		.addField("${prefix}ban", "ban member\nContoh: /ban @user");
 		
 		
 
