@@ -57,17 +57,17 @@ Client.on("message", async (message) => {
 
 		.setTitle("Command List:")
 
-		.addField("${prefix}help", "Dapatkan Bantuan CMD Bot")
+		.addField("_help", "Dapatkan Bantuan CMD Bot")
 
-		.addField("${prefix}rainbow", "Untuk memulai Rainbow Role \nContoh: /rainbow @role")
+		.addField("_rainbow", "Untuk memulai Rainbow Role \nContoh: /rainbow @role")
 
-		.addField("${prefix}hapus", "Untuk menghapus pesan \nContoh: /clear 100")
+		.addField("_hapus", "Untuk menghapus pesan \nContoh: /clear 100")
 		
 		.addField("×••• Mode Admin •••×", "Dalam Mode Admin Diperlukan Role VIP untuk bekerja!")
 
-		.addField("${prefix}kick", "Kick member\nContoh: /kick @user")
+		.addField("_kick", "Kick member\nContoh: /kick @user")
 
-		.addField("${prefix}ban", "ban member\nContoh: /ban @user");
+		.addField("_ban", "ban member\nContoh: /ban @user");
 		
 		
 
