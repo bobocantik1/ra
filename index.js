@@ -16,7 +16,7 @@ const bot = new Discord.Client()
 
 // Here we load the config.json file that contains our token and our prefix values. 
 
-const prefix = settings.prefix;
+const prefix = "_";
 
 
 // config.token contains the bot's token
