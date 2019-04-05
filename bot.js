@@ -1,7 +1,7 @@
 const Discord = require("discord.js") 
 const settings = require("./your_settings.json");
 const bot = new Discord.Client()
-const prefix = settings.prefix;
+const prefix = "_";
 const client = new Discord.Client()
 const antispam = require("./antispam.js");
 
