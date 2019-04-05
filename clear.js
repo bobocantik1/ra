@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client()
-const prefix = "/";
+const prefix = settings.prepix;
 const settings = require("./your_settings.json");
 
 
