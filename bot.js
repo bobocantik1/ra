@@ -6,8 +6,8 @@ const client = new Discord.Client()
 const antispam = require("./antispam.js");
 
 ///const clear = require("./clear.js");
-const embed = require("./embed.js");
-const spam = require("./spam.js");
+///const embed = require("./embed.js");
+///const spam = require("./spam.js");
 
 
 bot.on('ready', async => {
