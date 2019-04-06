@@ -250,7 +250,10 @@ bot.on('message', message => {
 });
 
 
-
+bot.on('message', message => {
+	if (message.content === '😁') {
+		message.reply('ketawa Mulu ada cabe tuh di gigi lu..:v');
+	});
 
 
 
